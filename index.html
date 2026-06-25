@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Putra Tegar Abhinaya | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:#0d0d0d;color:#fff;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;width:100%;padding:20px 8%;display:flex;justify-content:space-between;align-items:center;background:rgba(13,13,13,.35);backdrop-filter:blur(20px);z-index:999}
+.logo{font-weight:800;letter-spacing:2px}
+.nav-links{display:flex;gap:24px}
+.nav-links a{text-decoration:none;color:#fff;opacity:.75}
+.hero{position:relative;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+.hero:before{content:'';position:absolute;inset:0;background:url('profile.jpg') center/cover no-repeat;filter:blur(12px) grayscale(20%);transform:scale(1.1)}
+.hero:after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(13,13,13,.25),rgba(13,13,13,.6),rgba(13,13,13,.95),#0d0d0d)}
+.hero-content{position:relative;z-index:2;width:90%;max-width:950px}
+.hero h1{font-size:14px;letter-spacing:5px;margin-bottom:18px}
+.hero h2{font-size:clamp(55px,10vw,120px);line-height:.95;margin-bottom:20px}
+.hero p{max-width:700px;margin:auto;color:rgba(255,255,255,.75);line-height:1.8}
+.buttons{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin-top:35px}
+.btn{padding:15px 30px;border-radius:999px;text-decoration:none;font-weight:700}
+.btn-dark{background:#fff;color:#000}
+.btn-light{border:1px solid rgba(255,255,255,.15);color:#fff;background:rgba(255,255,255,.05)}
+.stats{display:flex;justify-content:center;gap:40px;margin-top:40px;flex-wrap:wrap}
+.stats h3{font-size:28px}
+.stats p{font-size:14px;color:rgba(255,255,255,.65)}
+.container{width:90%;max-width:1200px;margin:auto}
+section{padding:110px 0}
+.section-title{font-size:13px;letter-spacing:4px;color:#8f8f8f;margin-bottom:35px}
+.about{max-width:850px;line-height:1.9;color:rgba(255,255,255,.75)}
+.card{padding:30px 0;border-top:1px solid rgba(255,255,255,.08)}
+.card h3{margin-bottom:8px}
+.card p{color:rgba(255,255,255,.68);line-height:1.8}
+.works-slider{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px}
+.work-item{min-width:75%;scroll-snap-align:start}
+.work-item img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:18px}
+.work-item h4{margin-top:15px}
+.work-item p{color:rgba(255,255,255,.6)}
+.contact{text-align:center}
+.contact h2{font-size:clamp(40px,7vw,80px);margin-bottom:15px}
+.contact p{color:rgba(255,255,255,.7);margin-bottom:25px}
+.socials a{color:#fff;text-decoration:none;margin:0 10px}
+footer{padding:40px;text-align:center;border-top:1px solid rgba(255,255,255,.08);color:rgba(255,255,255,.5)}
+@media(max-width:768px){.nav-links{display:none}.work-item{min-width:90%}.hero h2{font-size:58px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">PUTRA TEGAR ABHINAYA</div>
+<div class="nav-links">
+<a href="#about">About</a><a href="#experience">Experience</a><a href="#works">Works</a><a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="hero-content">
+<h1>PUTRA TEGAR ABHINAYA</h1>
+<h2>Graphic Designer<br>Video Editor<br>Motion Designer</h2>
+<p>Creating impactful visual experiences through design, motion, video, and storytelling for brands, events, and digital campaigns.</p>
+<div class="buttons">
+<a href="https://drive.google.com/" class="btn btn-dark" target="_blank">Explore Work</a>
+<a href="cv-putra-bhin.pdf" class="btn btn-light" download>Download CV</a>
+</div>
+<div class="stats">
+<div><h3>7+</h3><p>Experiences</p></div>
+<div><h3>5+</h3><p>Events & Brands</p></div>
+<div><h3>4+</h3><p>Creative Skills</p></div>
+</div>
+</div>
+</section>
+
+<section id="about"><div class="container">
+<div class="section-title">ABOUT</div>
+<div class="about">Graphic Designer, Video Editor, Motion Graphics Designer, Videographer, and Photographer with experience working on festivals, government collaborations, branding projects, and digital campaigns. Specialized in social media content, visual communication, motion graphics, and short-form video production.</div>
+</div></section>
+
+<section id="experience"><div class="container">
+<div class="section-title">EXPERIENCE</div>
+<div class="card"><h3>Brandoctors Indonesia – AKUSMK</h3><p>Graphic Designer & Video Editor Reels<br>Jun 2025 – Present</p></div>
+<div class="card"><h3>ATOURIN × Kemenparekraf</h3><p>Video Editor & Motion Graphics Designer<br>Sep 2025 – Present</p></div>
+<div class="card"><h3>HAI Fest – Kementerian Kesehatan RI</h3><p>Video Editor & Videographer<br>Oct 2025 – Nov 2025</p></div>
+<div class="card"><h3>Indo Wellfest</h3><p>Video Editor, Motion Designer, Graphic Designer & Videographer<br>Jul 2025 – Sep 2025</p></div>
+<div class="card"><h3>Sorak Sorai Fest</h3><p>Video Editor, Motion Designer & Videographer<br>Dec 2025 – Jan 2026</p></div>
+<div class="card"><h3>Freelance Photographer & Videographer</h3><p>2024 – Present</p></div>
+<div class="card"><h3>Freelance Graphic Designer</h3><p>2023 – Present</p></div>
+</div></section>
+
+<section id="works"><div class="container">
+<div class="section-title">FEATURED PROJECTS</div>
+<div class="works-slider">
+<div class="work-item"><img src="work1.jpg"><h4>Sports Creative</h4><p>Social Media Design</p></div>
+<div class="work-item"><img src="work2.jpg"><h4>Event Documentation</h4><p>Festival Content</p></div>
+<div class="work-item"><img src="work3.jpg"><h4>Motion Graphics</h4><p>Animation Project</p></div>
+<div class="work-item"><img src="work4.jpg"><h4>Social Media Design</h4><p>Brand Campaign</p></div>
+<div class="work-item"><img src="work5.jpg"><h4>Video Editing</h4><p>Reels & Shorts</p></div>
+</div>
+</div></section>
+
+<section id="contact"><div class="container contact">
+<h2>Let's Build Something Great</h2>
+<p>Available for freelance projects, remote opportunities, internships, and full-time positions.</p>
+<div class="socials">
+<a href="https://instagram.com/putrabhin">Instagram</a>
+<a href="mailto:ptegar2015@gmail.com">Email</a>
+</div>
+</div></section>
+
+<footer>© 2026 Putra Tegar Abhinaya</footer>
+</body>
+</html>
